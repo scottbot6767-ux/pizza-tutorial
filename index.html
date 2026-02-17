@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfect Pizza | Home Pizza Mastery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-tag">The Ultimate Guide</span>
+      <h1>Perfect Pizza<br><span class="accent">At Home</span></h1>
+      <p class="hero-subtitle">Master the art of homemade pizza with this visual journey from dough to deliciousness.</p>
+      <a href="#oven" class="cta-btn">
+        Start Your Journey
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+    </div>
+  </section>
+
+  <!-- Section 1: Choose Your Oven -->
+  <section class="section section-oven" id="oven">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2>Choose Your Oven</h2>
+      <p>The foundation of great pizza starts with your heat source</p>
+    </div>
+    
+    <div class="oven-choices">
+      <div class="oven-card" data-oven="home">
+        <div class="oven-icon" id="homeOvenIcon"></div>
+        <h3>Home Oven</h3>
+        <p>Using your standard kitchen oven with a pizza stone or steel</p>
+        <ul class="oven-pros">
+          <li>No extra equipment needed</li>
+          <li>Year-round cooking</li>
+          <li>Great for beginners</li>
+        </ul>
+      </div>
+      
+      <div class="oven-card" data-oven="outdoor">
+        <div class="oven-icon" id="outdoorOvenIcon"></div>
+        <h3>Outdoor Pizza Oven</h3>
+        <p>Dedicated pizza ovens that reach 900°F+ for authentic results</p>
+        <ul class="oven-pros">
+          <li>Restaurant-quality crust</li>
+          <li>90-second cook times</li>
+          <li>Ultimate pizza experience</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="recommendations" id="ovenRecs">
+      <h4>Our Top Picks for Outdoor Ovens</h4>
+      <div class="rec-grid">
+        <div class="rec-card">
+          <div class="rec-badge">Scott's Choice</div>
+          <h5>Solo Stove Pi</h5>
+          <p>Dual-fuel flexibility with excellent heat retention. Beautiful design.</p>
+        </div>
+        <div class="rec-card">
+          <h5>Ooni Koda 16</h5>
+          <p>Gas-powered simplicity. Heats up in 20 minutes, cooks pizza in 60 seconds.</p>
+        </div>
+        <div class="rec-card">
+          <h5>Gozney Roccbox</h5>
+          <p>Professional-grade portable oven. Dual-fuel with incredible insulation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Core Ingredients & Tools -->
+  <section class="section section-ingredients" id="ingredients">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2>Essential Gear & Ingredients</h2>
+      <p>Stock your kitchen with the pizza-making fundamentals</p>
+    </div>
+
+    <div class="two-columns">
+      <div class="column">
+        <h3 class="column-title">
+          <span class="column-icon" id="toolsIcon"></span>
+          Tools
+        </h3>
+        <div class="item-list">
+          <div class="item">
+            <div class="item-icon" id="peelIcon"></div>
+            <div class="item-info">
+              <h4>Pizza Peel</h4>
+              <p>Essential for transferring pizza in and out of the oven. Wood for launching, metal for turning.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon" id="stoneIcon"></div>
+            <div class="item-info">
+              <h4>Pizza Stone or Steel</h4>
+              <p>Absorbs and radiates heat for a crispy bottom crust. Steel heats faster, stone retains more heat.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon" id="boardIcon"></div>
+            <div class="item-info">
+              <h4>Large Cutting Board</h4>
+              <p>For stretching dough and slicing your masterpiece.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon" id="scaleIcon"></div>
+            <div class="item-info">
+              <h4>Kitchen Scale</h4>
+              <p>Precision is key for consistent dough. Weighing beats measuring cups every time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h3 class="column-title">
+          <span class="column-icon" id="ingredientsIcon"></span>
+          Key Ingredients
+        </h3>
+        <div class="item-list">
+          <div class="item">
+            <div class="item-icon" id="flourIcon"></div>
+            <div class="item-info">
+              <h4>00 Flour or Bread Flour</h4>
+              <p>High protein content for that perfect chewy, airy crust. Caputo is the gold standard.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon" id="semolinaIcon"></div>
+            <div class="item-info">
+              <h4>Semolina Flour</h4>
+              <p>Dust your peel with this to prevent sticking. Adds a subtle crunch.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon" id="yeastIcon"></div>
+            <div class="item-info">
+              <h4>Instant Yeast</h4>
+              <p>The magic that makes your dough rise. Fresh or instant both work great.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-icon" id="saltIcon"></div>
+            <div class="item-info">
+              <h4>Fine Sea Salt</h4>
+              <p>Enhances flavor and strengthens gluten. Don't skip it!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Choose Your Dough -->
+  <section class="section section-dough" id="dough">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2>The Dough Decision</h2>
+      <p>The soul of your pizza — make it or buy it?</p>
+    </div>
+
+    <div class="dough-tabs">
+      <button class="dough-tab active" data-tab="homemade">Make Your Own</button>
+      <button class="dough-tab" data-tab="storebought">Store Bought</button>
+    </div>
+
+    <div class="dough-content" id="homemade">
+      <div class="recipe-card">
+        <h3>Classic Pizza Dough Recipe</h3>
+        <p class="recipe-yield">Makes 4 dough balls (12" pizzas)</p>
+        
+        <div class="recipe-ingredients">
+          <h4>Ingredients</h4>
+          <ul>
+            <li><strong>500g</strong> 00 flour or bread flour</li>
+            <li><strong>325g</strong> water (65% hydration)</li>
+            <li><strong>10g</strong> fine sea salt</li>
+            <li><strong>3g</strong> instant yeast</li>
+            <li><strong>10g</strong> olive oil (optional)</li>
+          </ul>
+        </div>
+
+        <div class="recipe-steps">
+          <h4>Method</h4>
+          <ol>
+            <li><strong>Mix:</strong> Combine flour, salt, and yeast. Add water and mix until shaggy dough forms.</li>
+            <li><strong>Knead:</strong> Work the dough for 10 minutes until smooth and elastic. It should pass the windowpane test.</li>
+            <li><strong>Bulk Rise:</strong> Cover and let rise at room temp for 2 hours, or until doubled.</li>
+            <li><strong>Divide:</strong> Cut into 4 equal pieces (~210g each). Form into tight balls.</li>
+            <li><strong>Cold Ferment:</strong> Place in airtight container and refrigerate for 1-3 days. This is where the magic happens.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="dough-content hidden" id="storebought">
+      <div class="store-recs">
+        <h3>Quality Store-Bought Options</h3>
+        <p>No shame in the store-bought game. These are solid choices:</p>
+        
+        <div class="store-grid">
+          <div class="store-card">
+            <h4>Trader Joe's Pizza Dough</h4>
+            <p>Fresh, affordable, and surprisingly good. Let it come to room temp before using.</p>
+          </div>
+          <div class="store-card">
+            <h4>Whole Foods Fresh Dough</h4>
+            <p>Found in the bakery section. Higher quality than most grocery options.</p>
+          </div>
+          <div class="store-card">
+            <h4>Local Pizzeria Dough</h4>
+            <p>Many pizza shops sell their dough. Often the best store-bought option.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Dough Prep -->
+  <section class="section section-prep" id="prep">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2>Prepping Your Dough</h2>
+      <p>Timing is everything for the perfect crust</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-time">3 Days Before</div>
+        <div class="timeline-content">
+          <h4>Into the Fridge</h4>
+          <p>After your dough balls are formed, they go into the refrigerator. This cold ferment develops complex flavors and makes the dough easier to stretch.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">~11:00 AM</div>
+        <div class="timeline-content">
+          <h4>Take It Out</h4>
+          <p>Remove dough from fridge about <strong>6 hours before cooking</strong>. If you're cooking at 5pm, pull it out around 11am. This lets it come to room temperature and relax.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">~4:30 PM</div>
+        <div class="timeline-content">
+          <h4>Preheat Oven</h4>
+          <p>Start preheating your oven as high as it goes (usually 500-550°F for home ovens). You want that stone or steel screaming hot.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">~5:00 PM</div>
+        <div class="timeline-content">
+          <h4>Pizza Time!</h4>
+          <p>Your dough is relaxed, your oven is ripping hot. Time to stretch, top, and cook!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pro-tip">
+      <div class="tip-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#84a98c" stroke-width="2">
+          <path d="M9 21h6M12 3a6 6 0 0 0-6 6c0 2.2 1.2 4.1 3 5.1V17a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2.9c1.8-1 3-2.9 3-5.1a6 6 0 0 0-6-6z"/>
+        </svg>
+      </div>
+      <div class="tip-content">
+        <strong>Pro Tip:</strong> Dough that's too cold will spring back when you stretch it. Dough that's too warm gets sticky and hard to handle. Room temp is the sweet spot.
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Cooking Techniques -->
+  <section class="section section-cooking" id="cooking">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2>Cooking Techniques</h2>
+      <p>The final stretch — literally and figuratively</p>
+    </div>
+
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-number">1</div>
+        <h4>Max Heat, Always</h4>
+        <p>Crank your oven as high as it goes. Pizza loves intense heat. Home ovens at 550°F, outdoor ovens at 800°F+.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">2</div>
+        <h4>Preheat Forever</h4>
+        <p>At least <strong>30-45 minutes</strong> of preheating. You're not just heating the air — you're heating that stone/steel through.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">3</div>
+        <h4>Less is More</h4>
+        <p>Don't overload toppings. The dough can't support a mountain of cheese. Thin, even layers cook better.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">4</div>
+        <h4>Semolina on the Peel</h4>
+        <p>Dust your peel generously with semolina. Give it a shake before launching — if it doesn't slide, add more.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">5</div>
+        <h4>Fresh Veggies = Later</h4>
+        <p>Delicate toppings like fresh basil and arugula go on <strong>after</strong> cooking. They'll wilt and burn otherwise.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">6</div>
+        <h4>Rotate for Even Cooking</h4>
+        <p>Halfway through, rotate your pizza 180°. Ovens have hot spots — this ensures even browning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Pizza Recipes -->
+  <section class="section section-recipes" id="recipes">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2>The Pizzas</h2>
+      <p>Tried and true combinations to get you started</p>
+    </div>
+
+    <div class="pizza-grid">
+      <div class="pizza-card">
+        <div class="pizza-image" style="background-image: url('images/margherita.jpg')"></div>
+        <div class="pizza-info">
+          <h3>Classic Margherita</h3>
+          <p class="pizza-desc">The queen of pizzas. Simple, perfect, timeless.</p>
+          <ul class="pizza-ingredients">
+            <li>San Marzano tomato sauce</li>
+            <li>Fresh mozzarella</li>
+            <li>Fresh basil (after cooking)</li>
+            <li>Extra virgin olive oil</li>
+            <li>Sea salt</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pizza-card">
+        <div class="pizza-image" style="background-image: url('images/pepperoni.jpg')"></div>
+        <div class="pizza-info">
+          <h3>Spicy Pepperoni</h3>
+          <p class="pizza-desc">Crispy cups of spicy goodness.</p>
+          <ul class="pizza-ingredients">
+            <li>Tomato sauce</li>
+            <li>Low-moisture mozzarella</li>
+            <li>Cup & char pepperoni</li>
+            <li>Calabrian chili oil</li>
+            <li>Oregano</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pizza-card">
+        <div class="pizza-image" style="background-image: url('images/white-pie.jpg')"></div>
+        <div class="pizza-info">
+          <h3>White Pie</h3>
+          <p class="pizza-desc">No red sauce, all creamy goodness.</p>
+          <ul class="pizza-ingredients">
+            <li>Garlic olive oil base</li>
+            <li>Ricotta dollops</li>
+            <li>Mozzarella</li>
+            <li>Parmesan</li>
+            <li>Fresh black pepper</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pizza-card">
+        <div class="pizza-image" style="background-image: url('images/veggie.jpg')"></div>
+        <div class="pizza-info">
+          <h3>Garden Veggie</h3>
+          <p class="pizza-desc">Fresh, colorful, and surprisingly hearty.</p>
+          <ul class="pizza-ingredients">
+            <li>Tomato sauce</li>
+            <li>Mozzarella</li>
+            <li>Roasted red peppers</li>
+            <li>Caramelized onions</li>
+            <li>Mushrooms, zucchini</li>
+            <li>Fresh arugula (after)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>Now go make some pizza!</p>
+      <svg class="footer-pizza" viewBox="0 0 48 48" width="48" height="48" fill="none">
+        <path d="M24 6 L42 42 H6 Z" stroke="#e85d04" stroke-width="2" fill="none"/>
+        <circle cx="20" cy="28" r="3" fill="#e85d04"/>
+        <circle cx="28" cy="26" r="3" fill="#e85d04"/>
+        <circle cx="24" cy="34" r="3" fill="#e85d04"/>
+        <circle cx="18" cy="20" r="2" fill="#84a98c"/>
+        <circle cx="30" cy="32" r="2" fill="#84a98c"/>
+      </svg>
+      <a href="#hero" class="back-to-top">Back to Top</a>
+    </div>
+  </footer>
+
+  <script src="icons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
